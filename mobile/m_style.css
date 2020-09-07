@@ -12,10 +12,10 @@ html body {
 }
 
 .primary-color {
-  color: #f07547;
+  color: #6B7FB6;
 }
 .primary-bg-color {
-  background-color: #f07547;
+  background-color: #6B7FB6;
 }
 
 /* Buttons */
@@ -39,8 +39,8 @@ html body {
   transition: all 0.2s ease-in-out;
 }
 .primary-button:hover {
-  background-color: #a02203;
-  border-color: #a02203;
+  background-color: #57eec1;
+  border-color: #57eec1;
 }
 
 .white-border-button {
@@ -74,14 +74,14 @@ html body {
   height: 48px;
 
   border-radius: 24px;
-  border: solid 1px #595959;
+  border: solid 1px #979797;
   font-size: 14px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.77px;
-  color: #595959;
+  color: #979797;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,92 +96,16 @@ html body {
   color: white;
 }
 
-/* Header */
-
-header {
-  width: 100%;
-  position: absolute;
-  top: 0;
-}
-header .header-bar {
-  padding: 5px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-header .side-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-header .side-bar .bar-container {
-  box-sizing: border-box;
-  position: absolute;
-  width: 200px;
-  height: 100%;
-  background-color: white;
-  right: -200px;
-  padding: 20px;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-header .side-bar .bar-container .menu-list {
-  font-size: 26px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.08;
-  letter-spacing: -0.87px;
-  text-align: right;
-  color: #595959;
-  margin-top: 24px;
-}
-header .side-bar .bar-container a {
-  text-decoration: none;
-}
-header .side-bar .bar-container .menu-list.active {
-  color: #f07547;
-}
-
-header .logo {
-  height: 40px;
-}
-header .content-container {
-  position: relative;
-  left: calc(50vw - 600px);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-header ul li {
-  display: inline-block;
-  font-size: 16px;
-  width: 90px;
-  padding: 10px 25px;
-  text-align: center;
-}
-
-header ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: normal;
-}
-
 /* footer */
 footer {
-  color: #999;
+  color: #979797;
   font-size: 10px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: normal;
-  color: #999999;
+  color: #979797;
   margin-top: 50px;
   position: relative;
   background-color: black;
@@ -193,14 +117,14 @@ footer .sub {
 
 footer a {
   font-size: 12px;
-  color: #999;
+  color: #979797;
   text-decoration: none;
 }
 
 hr {
   width: 100%;
   height: 1px;
-  background-color: #999;
+  background-color: #979797;
   margin: 0;
 }
 .sns-icons {
