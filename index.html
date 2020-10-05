@@ -57,7 +57,7 @@
           AI 융합 교육을 제공하여 미래 산업의 핵심인재로 성장할 수 있도록 돕습니다.
         </div>
         <div style="text-align:center;">
-          <a href="http://bit.ly/ict-apply"><div class="primary-button apply">지원하기</div></a>
+          <a href="http://bit.ly/ict-apply" id="apply"><div class="primary-button apply">지원하기</div></a>
           <a href="http://bit.ly/ict-class" class="ml10"><div class="white-border-button introduction">과정소개</div></a>
         </div>
       </div>
@@ -100,23 +100,14 @@
 </body>
 
 <script>
-    $(document).ready(function () {
-      console.log("ddd");
-      $(".menu-item").on("click", function () {
-        $(".menu-item").removeClass("active");
-        $(this).addClass("active");
-        $(".pre").css("display", "none");
-        $(".middle").css("display", "none");
-        $(".advanced").css("display", "none");
-        $(".project").css("display", "none");
-        var showId = $(this).attr("value");
+  let today = new Date();
+  let end_day = new Date(2020, 10, 06, 23, 59, 59, 00);
 
-        $("." + showId).css("display", "block");
-      });
-      $(".faq-q").on("click", function () {
-        $(this).next().toggle(500);
-      });
-    });
+  let a_link = document.getElementById('apply'); 
+
+  if (today > end_day){
+    a_link.href = "javascript:void(0)";
+  }
 </script>
 
 <script type="text/javascript">
